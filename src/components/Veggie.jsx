@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Splide, SplideSlide} from '@splidejs/react-splide';
 import "@splidejs/splide/dist/css/splide.min.css";
+import { Link } from "react-router-dom";
 
 
 function Veggie() {
@@ -45,9 +46,11 @@ function Veggie() {
               return(
                 <SplideSlide key={recipe.id}>
                 <Card>
+                <Link to={"/recipe/" + recipe.id}>
                   <p>{recipe.title}</p>
                   <img src={recipe.image} alt={recipe.title} />
                   <Gradient/>
+                  </Link>
                 </Card>
                 </SplideSlide>
               );
@@ -65,7 +68,7 @@ margin: 4rem 0rem;
 
 const Card = styled.div`
 min-height: 25rem;
-border-radius 2rem;
+border-radius: 2rem;
 overflow: hidden;
 position: relative;
 
@@ -98,7 +101,7 @@ p{
 
 const Gradient = styled.div`
 z-index: 3;
-postion: absolute;
+position: absolute;
 width: 100%;
 height: 100%;
 background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
