@@ -24,7 +24,7 @@
 * _HTML_
 * _CSS_
 * _JSX_
-* _API_
+* _Spoonacular API_
 * _Styled Components_
 
 
