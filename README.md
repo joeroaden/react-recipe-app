@@ -45,6 +45,20 @@ _Search Spoonaculars recipe database API for popular recipes or sort by most com
 5. From the root directory, run `npm install` to install all modules that are listed on package. json file and their dependencies
 6. From the root directory, run `npm run start` to view the application on your local live server.
 
+### Spoonacular API Documentation
+
+1. Go to [Spoonacular API](https://spoonacular.com/food-api) and create a free account 
+2. Copy API Key from 'My Console' section under 'Profile'
+3. Creat a .env file at the root level of the project
+4. Add your API Key as follows "REACT_APP_API_KEY=<YOUR_API_KEY>" - Note there is no spaces, carrots or underscores, just paste your API Key
+5. Be sure to not commit your .env by first adding it to your .gitignore file
+
+### Spoonacular API Example Endpoint
+
+1. Search Recipes
+Search through thousands of recipes using advanced filtering and ranking. NOTE: This method combines searching by query, by ingredients, and by nutrients into one endpoint.
+
+`GET https://api.spoonacular.com/recipes/complexSearch`
 
 ---
 ## Known Bugs
