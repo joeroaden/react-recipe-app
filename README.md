@@ -53,10 +53,11 @@ _Search Spoonaculars recipe database API for popular recipes or sort by most com
 4. Add your API Key as follows "REACT_APP_API_KEY=<YOUR_API_KEY>" - Note there is no spaces, carrots or underscores, just paste your API Key
 5. Be sure to not commit your .env by first adding it to your .gitignore file
 
-### Spoonacular API Example Endpoint
+### Spoonacular API Docs
 
-1. Search Recipes
-Search through thousands of recipes using advanced filtering and ranking. NOTE: This method combines searching by query, by ingredients, and by nutrients into one endpoint.
+1. Go to [Spoonacular API Docs](https://spoonacular.com/food-api/docs) to view how to search and request info from API
+
+2. Search Ex:
 
 `GET https://api.spoonacular.com/recipes/complexSearch`
 
