@@ -2,7 +2,7 @@
 
 #### By _Joe Roaden_
 
-#### _A REACT application utilizing Spoonacular's recipe database API.  Users can browse popular recipes and search all recipes by tags_
+#### _A REACT application utilizing Spoonacular's recipe database API.  Users can browse popular recipes and search all recipes by tags._
 
 
 ![image](app-screen-shot.png)
