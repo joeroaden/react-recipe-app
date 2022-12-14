@@ -49,7 +49,7 @@ _Search Spoonaculars recipe database API for popular recipes or sort by most com
 
 1. Go to [Spoonacular API](https://spoonacular.com/food-api) and create a free account 
 2. Copy API Key from 'My Console' section under 'Profile'
-3. Creat a .env file at the root level of the project
+3. Creat a '.env' file at the root level of the project
 4. Add your API Key as follows "REACT_APP_API_KEY=<YOUR_API_KEY>" - Note there is no spaces, carrots or underscores, just paste your API Key
 5. Be sure to not commit your .env by first adding it to your .gitignore file
 
